@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  
+  <style>
+    p {
+      text-align: justify;
+    }
+
+    .centered-justified {
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    
+    header {
+      background-color: #08B0D5;
+      padding: 5px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    nav ul li {
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #000000;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    
+    nav ul li a:hover {
+      background-color: #E3447C;
+      color: #FFFFFF;
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(227, 68, 124, 0.3);
+    }
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+      font-family: "Impact", sans-serif;
+      font-size: 70px;
+      color:#E3447C
+    }
+    
+    .logo {
+      width: 120px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    
+    #landing {
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 22px;
+    }
+    
+    #landing h1 {
+      color: #000000;
+      margin: 0;
+    }
+    
+    #landing p {
+      color: #000000;
+    }
+    
+    footer {
+      background-color: #08B0D5;
+      padding: 20px;
+      text-align: center;
+      color: #000000;
+    }
+
+            .product-cell {
+        max-width: 400px;
+        background-color:#E3447C;
+        border: 5px solid #08B0D5;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+
+        .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        flex-direction: column;
+        }
+
+        .imgproduto {
+          max-width: 300px;
+          max-height: 300px;
+        }
+
+  </style>
+  
+  <title>Mr Beast Feastables</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="imagens/mr_beast_logo.png" alt="Logo" class="logo">
+        </a>
+        Feastables
+        
+      </div>
+      <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="onde.html">Onde encontrar?</a></li>
+        <li><a href="quem_eh.html">Quem é Mr Beast?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="landing" class="centered">
+
+        <div class="product-cell">
+            <img src="imagens/produtos/milk_chocolate.webp" alt="Nome do Produto " class="imgproduto">
+            <h2>BARRA DE CHOCOLATE AO LEITE</h2>
+            <p>Descrição do Sabor:<br>
+              - Suave e deliciosamente cremoso<br>
+              - Leite de vacas felizes criadas a pasto 🤝 Chocolate delicioso<br>
+              - Apenas 5 ingredientes<br>
+              - Feito com cacau orgânico</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/deeznuts Background Removed.png" alt="Nome do Produto" class="imgproduto">
+            <h2>BARRA DE CHOCOLATE DEEZ NUTS</h2>
+            <p>- Uma EXPLOSÃO de sabor de chocolate com manteiga de amendoim<br>
+              - Leite cremoso dos animais criados a pasto<br>
+              - Apenas 7 ingredientes<br>
+              - Feito com cacau orgânico<br>
+              - Você vai querer colocar Deez Nutz na sua boca...</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/og_plantbased.png" alt="Nome do Produto" class="imgproduto">
+            <h2>Barra de Chocolate OG Plant Based</h2>
+            <p>
+              - O chefão de todos os chocolates<br>
+              - Sabor rico e cremoso<br>
+              - Baseado em plantas<br>
+              - Apenas 4 ingredientes<br>
+              - Feito com cacau orgânico<br>
+              - Um sabor um tanto intenso, mas totalmente devorável!</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/karl_green.webp" alt="Nome do Produto" class="imgproduto">
+            <h2>KARL GUMMIES SOUR GREEN APPLE</h2>
+            <p>8 Pacotes<br>
+              Apenas 5g de açúcar<br>
+              Baseado em plantas<br>
+              Sem sabores ou cores artificiais<br>
+              Aprovado por Karl ✅</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/karl_blue.webp" alt="Nome do Produto" class="imgproduto">
+            <h2>KARL GUMMIES SOUR BLUE RASPBERRY</h2>
+            <p>8 Pacotes<br>
+              Apenas 5g de açúcar<br>
+              Baseado em plantas<br>
+              Sem sabores ou cores artificiais<br>
+              Aprovado por Karl ✅</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/cookie_chocolate Background Removed.png" alt="Nome do Produto" class="imgproduto">
+            <h2>MRBEAST COOKIE
+              CHOCOLATE CHIP</h2>
+              <p>Biscoitos de Chocolate Chip dos sonhos, clássicos e feitos apenas com os melhores e mais simples ingredientes<br>
+               - Repletos de gotas de chocolate em cada mordida<br>
+               - Feitos com farinha sem glúten<br>
+               - A textura perfeita, macia e irresistível<br>
+               - Sabor igual aos biscoitos da sua mãe</p>
+          </div>
+          <div class="product-cell">
+            <img src="imagens/produtos/cookie_peanut Background Removed.png" alt="Nome do Produto" class="imgproduto">
+            <h2>KARL GUMMIES SOUR GREEN APPLE</h2>
+            <p>Biscoitos de Manteiga de Amendoim com Chocolate Chip salgados e doces, feitos apenas com os ingredientes mais simples<br>
+              -Gotas de chocolate e manteiga de amendoim em cada mordida<br>
+              -Feitos com farinha sem glúten<br>
+              -A textura perfeita, macia e irresistível<br>
+              -Sabor igual aos biscoitos da sua mãe</p>
+            
+          </div>
+    </section>
+  </main>
+
+  <footer>
+    2023 Mr Beast Feastables. All rights reserved.
+  </footer>
+</body>
+
+</html>

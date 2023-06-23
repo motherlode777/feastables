@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  
+  <style>
+    p {
+      text-align: justify;
+    }
+
+    .centered-justified {
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    
+    header {
+      background-color: #08B0D5;
+      padding: 5px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    nav ul li {
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #000000;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    
+    nav ul li a:hover {
+      background-color: #E3447C;
+      color: #FFFFFF;
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(227, 68, 124, 0.3);
+    }
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+      font-family: "Impact", sans-serif;
+      font-size: 70px;
+      color:#E3447C
+    }
+    
+    .logo {
+      width: 120px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .banner {
+      width: 800px;
+      height: 200px;
+      object-fit: cover;
+      object-position: center left;
+    }
+    
+    #landing {
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 22px;
+    }
+    
+    #landing h1 {
+      color: #000000;
+      margin: 0;
+    }
+    
+    #landing p {
+      color: #000000;
+    }
+    
+    footer {
+      
+      background-color: #08B0D5;
+      padding: 20px;
+      text-align: center;
+      color: #000000;         
+      
+    }
+
+    .imgloja {
+          width: 600px;
+          height: 300px;
+        }
+  </style>
+  
+  <title>Mr Beast Feastables</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="imagens/mr_beast_logo.png" alt="Logo" class="logo">
+        </a>
+        Feastables
+        
+      </div>
+      <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="onde.html">Onde encontrar?</a></li>
+        <li><a href="quem_eh.html">Quem é Mr Beast?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="landing">
+      <h1>Onde comprar Feastables?:</h1>
+      <div><img src="imagens/lojas/walmart_integration.png"></div>
+      <div><img src="imagens/lojas/albertsons.jpeg" class="imgloja"></div>
+      <div><img src="imagens/lojas/7eleven-horizontal.png"></div>
+   
+    </section>
+  </main>
+
+  <footer>
+    2023 Mr Beast Feastables. All rights reserved.
+  </footer>
+</body>
+
+</html>
